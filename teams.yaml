@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tcs-teams
+spec:
+  type: team
+  profile:
+    displayName: TCS Teams
+  children: []
