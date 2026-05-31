@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+
+metadata:
+  name: tcs-api
+  description: TCS REST API
+
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/tcs-teams
+
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: TCS API
+      version: 1.0.0
