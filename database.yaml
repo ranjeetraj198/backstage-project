@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: tcs-db
+  description: Database Config TCS
+
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    
+spec:
+  type: database
+  owner: group:default/tcs-teams
